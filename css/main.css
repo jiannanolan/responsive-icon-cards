@@ -75,19 +75,21 @@ h2 {
   }
 
   img {
-    display: block;
-    margin: auto;
-    width: 50%;
+    display: inline-block;
+  }
+
+  .card-body {
+    display: inline-block;
+    width: 75%;
+    margin-left: .75em;
   }
 
   .card-body h2 {
+    margin-top: 0;
     margin-bottom: 0;
   }
-
-  .card-body p {
-    margin-top: 0;
-  }
 }
+
 
 @media only screen and (min-width: 38em) {
 
